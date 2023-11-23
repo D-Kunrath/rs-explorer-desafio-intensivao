@@ -129,13 +129,13 @@ article h3 {
 
 #contact {
   background-color: var(--bg-light);
-  padding: 4.5rem 2.5rem;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  padding: 4.5rem 2.5rem;
 }
 
 #contact > img {
@@ -195,6 +195,8 @@ footer {
 /* media queries */
 
 @media (min-width: 768px) {
+  /* landing */
+
   #landing {
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -219,5 +221,27 @@ footer {
 
   #landing p {
     font-size: 2rem;
+  }
+
+  /* details */
+
+  #details {
+    flex-direction: row;
+  }
+
+  /* contact */
+
+  #contact {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact-form {
+    flex-grow: 1;
+    padding: 4.5rem 7.5rem;
+  }
+
+  #contact > img {
+    display: initial;
   }
 }
