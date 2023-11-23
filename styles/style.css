@@ -191,3 +191,33 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+/* media queries */
+
+@media (min-width: 768px) {
+  #landing {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 2rem 7.5rem 6.5rem;
+  }
+
+  #landing > img {
+    max-width: 50%;
+  }
+
+  #landing > div {
+    align-self: flex-end;
+    align-items: flex-start;
+    gap: 10rem;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  #landing p {
+    font-size: 2rem;
+  }
+}
