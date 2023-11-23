@@ -15,9 +15,9 @@
           <h1>Explore sem limites</h1>
           <p>Porque o aprendizado é contínuo</p>
         </span>
-        <div class="btn-more">
+        <a class="btn-more" href="#details">
           <img src="./images/down-arrow.svg" alt="down arrow" />
-        </div>
+        </a>
       </div>
     </section>
     <section id="details">
@@ -51,21 +51,24 @@
       </article>
     </section>
     <section id="contact">
-      <h2>Entre em contato</h2>
-      <form>
-        <label>
+      <form class="contact-form">
+        <h2>Entre em contato</h2>
+        <label class="input-layout">
+          <img src="./images/person.svg" alt="name" />
           <input type="text" placeholder="Seu nome" />
         </label>
-        <label>
-          <input type="text" placeholder="Email" />
+        <label class="input-layout">
+          <img src="./images/at.svg" alt="email" />
+          <input type="email" placeholder="Email" />
         </label>
         <textarea
           cols="30"
           rows="10"
           placeholder="Digite sua mensagem aqui..."
         ></textarea>
-        <button type="submit">Enviar mensagem</button>
+        <button class="btn-submit" type="submit">Enviar Mensagem</button>
       </form>
+      <img src="./images/fade-bg.png" role="presentation" />
     </section>
     <footer>&copy; 2023 - Rocketseat Explorer</footer>
   </body>

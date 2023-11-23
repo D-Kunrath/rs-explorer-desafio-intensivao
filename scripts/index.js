@@ -1,4 +1,7 @@
 document.querySelector("form button").addEventListener("click", (e) => {
   e.preventDefault();
-  console.log("submit form");
+  window.alert("Mensagem enviada");
+  document
+    .querySelectorAll(".contact-form input, .contact-form textarea")
+    .forEach((field) => (field.value = ""));
 });
