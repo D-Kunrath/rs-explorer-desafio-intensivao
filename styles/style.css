@@ -1,0 +1,66 @@
+/* general */
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600;900&display=swap");
+
+:root {
+  --bg-light: #f9f4fb;
+  --color-light: #b52184;
+  --color-dark: #312d64;
+
+  font-family: "Mulish";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-light);
+  font-weight: 900;
+}
+
+p {
+  color: var(--color-dark);
+  font-weight: 600;
+}
+
+/* landing */
+
+#landing {
+  background-color: var(--bg-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+#landing > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 10vh;
+}
+
+#landing p {
+  font-size: 1.25rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.btn-more {
+  width: 3.5rem;
+  height: 6.5rem;
+  border: 4px solid #b52184;
+  border-radius: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
