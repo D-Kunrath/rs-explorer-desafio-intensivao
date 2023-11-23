@@ -87,3 +87,15 @@ article h3 {
   margin-top: 2rem;
   margin-bottom: 1.25rem;
 }
+
+/* contact */
+
+/* footer */
+footer {
+  height: 4.5rem;
+  background-color: var(--color-dark);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
