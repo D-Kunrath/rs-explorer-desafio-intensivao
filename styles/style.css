@@ -64,3 +64,26 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+
+/* details */
+
+#details {
+  background-color: var(--color-dark);
+  padding: 3.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+#details article {
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.85rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.25rem;
+  padding: 1.55rem;
+}
+
+article h3 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+}
